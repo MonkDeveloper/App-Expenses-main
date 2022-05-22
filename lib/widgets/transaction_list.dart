@@ -15,9 +15,8 @@ class TransactionList extends StatelessWidget {
               children: [
                 const Text('No Transaction Added yet!'),
                 Container(
-                  height: 200,
-                  child: Image.asset('assets/images/waiting.png'),
-                ),
+                    height: 200,
+                    child: Image.asset('assets/images/waiting.png')),
                 // fit: BoxFit.cover)),
               ],
             )
